@@ -1,0 +1,27 @@
+<section id="career">
+  <h2>career</h2>
+  <div class="items">
+  {% for career in site.career %}
+      <div class="item">
+          <div class="when">{{ career.when }}</div>
+          <h3>
+              {% if career.company %}
+                  <a class="go" href="{{ career.company }}" target="_blank">
+                      <img src="{{ career.company }}/favicon.ico" />
+                  </a>
+              {% endif %}
+              {{ career.title }}
+          </h3>
+          <p>{{ career.summary }}</p>
+          <div>
+              {% if career.more %}
+              wat
+                {{ career.permalink }}
+              {% else if career.link %}
+                  <a href="{{ career.link }}">blog post</a>
+              {% endif %}
+          </div>
+      </div>
+  {% endfor %}
+  </div>
+</section>

@@ -1,0 +1,180 @@
+---
+---
+
+$space-unit: 30px;
+
+body {
+  font-family: 'Barlow Condensed', sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 10%;
+  font-size: 0.9em;
+  line-height: 1.67em;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+header h1 a {
+  color: #000;
+  text-decoration: none;
+}
+
+p {
+  font-weight: 300;
+  font-family: helvetica;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav a {
+  padding-left: $space-unit;
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.item-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-size: cover;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+h1::before, h2::before, h3::before {
+  color: #9f9f9f;
+  font-size: 0.9em;
+}
+
+h1::before {
+  content: '# ';
+}
+
+h2::before {
+  content: '## ';
+}
+
+h3::before {
+  content: '### ';
+}
+
+section {
+  margin-top: $space-unit * 2;
+}
+
+section .items {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  &::after {
+    content: ' ';
+    border-right: 2px solid #eee;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    margin-left: -5px;
+  }
+}
+
+section > h2 {
+  margin-bottom: $space-unit;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+#career .go {
+  &::before {
+    content: '';
+  }
+  &:hover {
+    text-decoration: none;
+  }
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+section a::before {
+  width: 12px;
+  height: 12px;
+  color: #222;
+  font-family: 'feather' !important;
+  content: '\e884';
+  font-size: 12px;
+  padding-right: 6px;
+}
+
+a.instagram::before {
+  content: '\e880';
+}
+
+a.linkedin::before {
+  content: '\e882';
+}
+
+a.twitter::before {
+  content: '\e8e0';
+}
+
+a.github::before {
+  content: '\e87b';
+}
+
+.when {
+  transform: rotate(90deg);
+  position: absolute;
+  left: 50%;
+  margin-left: -1em;
+  color: #aaa;
+  margin-top: 50px;
+  background: #fff;
+  z-index: 2;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section .item {
+  margin-bottom: $space-unit / 3;
+  margin-top: $space-unit / 3;
+  width: 45%;
+  &:nth-child(even) {
+    text-align: right;
+    align-self: flex-start;
+  }
+  &:nth-child(odd) {
+    text-align: left;
+    align-self: flex-end;
+  }
+}
+
+section#about .content {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.collab {
+  font-size: 0.7em;
+}

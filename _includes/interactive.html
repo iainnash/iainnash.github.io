@@ -1,0 +1,16 @@
+<section id="interactive">
+    <h2>interactive</h2>
+    <div class="items">
+    {% for interactive in site.interactive %}
+        <div class="item">
+            <div class="when">{{ interactive.date | date: "%Y" }}</div>
+            <h3>{{ interactive.title }}</h3>
+            {% if interactive.collaboration %}
+                <span class="collab">in collaboration with {{ interactive.collaboration }}</span>
+            {% endif %}
+            <p>{{ interactive.summary }}</p>
+            <a href="{{ interactive.link }}">{{ interactive.action }}</a>
+        </div>
+    {% endfor %}
+    </div>
+</section>
