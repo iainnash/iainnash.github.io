@@ -5,6 +5,7 @@ collaboration: lenny zhu
 action: view project repo on github
 link: http://github.com/iainnash/heart-rate-project/
 summary: built technical system for an immersive biofeedback experience
+tech: midi, dmx, ir heart rate, arduino, synthesis
 ---
 
 pulse is an immersive installation that mediates in-person connection and

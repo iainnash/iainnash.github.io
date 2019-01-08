@@ -5,6 +5,7 @@ collaboration: luke cheng, yun liao
 action: view installation overview
 link: 'https://www.lukecheng.co/5450048-messages-2011-2017/'
 summary: 'worked with artists to scrape and typeset thousands of pages of facebook messages'
+tech: json app scraping, jupyter notesbooks, json, xml template file generation
 ---
 
 messages is a multi-volume set of books containing the entirty of their shared Facebook

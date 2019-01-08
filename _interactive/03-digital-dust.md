@@ -7,6 +7,7 @@ summary: "digital dust is a webgl experience on both mobile and desktop that imm
 a 360-degree view of a distorted street but with a virtual layer of superimposed digital
 metadata from that location gathered from a combination of the instagram, flickr, and 
 foursquare API"
+tech: web apis, webgl, three.js, street view api
 ---
 
 digital dust is a webgl experience on both mobile and desktop that immerses the user in
