@@ -7,7 +7,7 @@ iain's interest in interactive media started when he worked as a researcher with
 
 iain has used various embedded development platforms such as arduinos, esp-32 chips, raspberry pi, and addressable led chipsets of all kinds to create interactive, modular IoT solutions for home and installations
 
-senior year at <a href="http://usc.edu/" title="university of southern california">usc</a>, iain integrated his interest in film photography process and the digital screen and backlight by creating photograms using the internals of an LCD panel and laptop keyboard backlights.
+at <a href="http://usc.edu/" title="university of southern california">usc</a>, iain integrated his interest in film photography process and the digital screen and backlight by <a href="https://absentshadow.tumblr.com/post/154149648210/">creating photograms using the internals of an LCD panel</a> and laptop keyboard backlights
 
 these past years, iain has worked closely with artists to build highly immersive works experimenting in fields from data collection, signal processing, responsive lighting, and biofeedback. in 2018 he produced visuals for over six events with <a href="http://phake.fun">phake.fun</a>.
 
