@@ -3,12 +3,12 @@ title: Iain Nash
 layout: interactive
 ---
 
-iain's interest in interactive media started in college, where he worked for the Mobile and Environmental media lab on intelligent meeting room and lighting design. He worked with <a href="http://behnazfarahi.com">behanz fahari</a> on living, breathing walls and various pieces as a technical consultant.
+iain's interest in interactive media started when he worked as a researcher with the <a href="http://mobilemedia.usc.edu/">mobile and Environmental media lab</a> on intelligent meeting room and lighting design. He worked with <a href="http://behnazfarahi.com">behanz fahari</a> on living, breathing walls and various pieces as a technical consultant.
 
-from freshman year, iain has used arduinos, esp-32 chips, raspberry pi, and leds of all kinds to create interactive, wireless, and fun IoT solutions
+iain has used various embedded development platforms such as arduinos, esp-32 chips, raspberry pi, and addressable led chipsets of all kinds to create interactive, modular IoT solutions for home and installations
 
 senior year at <a href="http://usc.edu/" title="university of southern california">usc</a>, iain integrated his interest in film photography process and the digital screen and backlight by creating photograms using the internals of an LCD panel and laptop keyboard backlights.
 
-beyond college, Iain continues to build immersive and highly collaborative works from experiments in data collection and analysis to immersive audio and light installations. in 2018 he produced visuals for over six events with <a href="http://phake.fun">phake.fun</a>.
+these past years, iain has worked closely with artists to build highly immersive works experimenting in fields from data collection, signal processing, responsive lighting, and biofeedback. in 2018 he produced visuals for over six events with <a href="http://phake.fun">phake.fun</a>.
 
-a sampling of technologies iain uses to make these experiences: MIDI, DMX, TouchDesigner, WebGL, OpenFrameworks, WebSockets, OpenNI / Kinect, Lidar, Bluetooth, and Processing
+a sampling of technologies iain uses to make these experiences: MIDI, DMX, TouchDesigner, WebGL, OpenFrameworks, ESP32, Arduino/Wiring, WebSockets, OpenNI / Kinect, Lidar, Bluetooth, and Processing

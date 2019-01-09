@@ -1,5 +1,5 @@
 ---
-title: cube cubed
+title: dome
 date: 03/03/2014
 collaboration: special events committee
 summary: lighting design and productions for a geodesic dome side stage for springfest 2015
