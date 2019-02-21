@@ -16,7 +16,7 @@
 title: Iain Nash
 description: >- # this means to ignore newlines until "baseurl:"
   iain is a multidiscipliary engineer
-  focused on the intersections of 
+  focused on the intersections of
   machines and humans
   these interested are manifested in
   full-stack engineering at oscar health
@@ -33,6 +33,7 @@ markdown: kramdown
 collections:
   - career
   - interactive
+  - teaching
 
 defaults:
   - scope:

@@ -1,0 +1,14 @@
+<section id="interactive">
+    <h2>teaching</h2>
+    <div class="items">
+    {% for classtaught in site.teaching %}
+        <div class="item">
+            <div class="when">{{ classtaught.date | date: "%Y" }}</div>
+            <h3>{{ classtaught.title }}</h3>
+            <div class="tech">{{ classtaught.tech }}</div>
+            <p>{{ classtaught.summary }}</p>
+            {% if classtaught.link %}<a href="{{ classtaught.link }}">{{ classtaught.action }}</a>{% endif %}
+        </div>
+    {% endfor %}
+    </div>
+</section>
