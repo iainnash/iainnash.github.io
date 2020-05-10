@@ -8,7 +8,7 @@ body {
   margin: 0 auto;
   max-width: 1048px;
   padding: 5%;
-  font-size: 1.45em;
+  font-size: 1.2em;
   line-height: 1.6em;
 }
 
@@ -80,6 +80,10 @@ h3::before {
 
 section {
   margin-top: $space-unit * 2;
+}
+
+article img {
+  max-width: 100%;
 }
 
 section .items {

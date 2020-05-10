@@ -31,9 +31,15 @@ github_username:  iainnash
 markdown: kramdown
 
 collections:
-  - career
-  - interactive
-  - teaching
+  career:
+    when: true
+    type: true
+    output: true
+  interactive:
+    output: true
+  teaching:
+    output: false
+    
 
 defaults:
   - scope:

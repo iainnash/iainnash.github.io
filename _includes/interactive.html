@@ -10,7 +10,11 @@
             {% endif %}
             <div class="tech">{{ interactive.tech }}</div>
             <p>{{ interactive.summary }}</p>
+            {% if interactive.show_page %}
+            <a href="{{ interactive.url }}">view more...</a>
+            {% else if interactive.link %}
             <a href="{{ interactive.link }}">{{ interactive.action }}</a>
+            {% endif %}
         </div>
     {% endfor %}
     </div>

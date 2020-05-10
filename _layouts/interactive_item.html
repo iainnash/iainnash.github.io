@@ -1,5 +1,18 @@
 ---
 layout: main
 ---
+<br />
+<div class="when">{{ page.date | date: "%Y" }}</div>
+<h3>{{ page.title }}</h3>
+{% if page.collaboration %}
+    <span class="collab">in collaboration with {{ page.collaboration }}</span>
+{% endif %}
+<div class="tech">{{ page.tech }}</div>
+<p>{{ page.summary }}</p>
 
-{{ item.content }}
+<article>
+{{ content }}
+</article>
+
+
+<p><a href="{{ page.link }}">{{ page.action }}</a></p>
