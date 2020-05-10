@@ -1,6 +1,6 @@
 ---
 title: antepyrosis & contrascientia
-date: 10/10/2018
+date: 2018-10-10
 collaboration: elektra jiang
 summary: microcontroller system design and installation for live graphical animations created by elektra shown on oscilliscopes as images and waves for <a href="http://caldera.syndey">caldera</a>
 link: https://github.com/iainnash/contrascientia
