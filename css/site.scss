@@ -87,6 +87,14 @@ article img {
   max-width: 100%;
 }
 
+article .flex {
+  display: flex;
+}
+
+article .flex * {
+  padding: 10px;
+}
+
 section .items {
   display: flex;
   flex-direction: column-reverse;
